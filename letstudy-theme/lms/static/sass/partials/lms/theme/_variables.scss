@@ -4,11 +4,17 @@
 //
 // Note: define colors needed by your theme first
 
-// Define the primary red color
-$red: #d9534f;
+// Define colors
+$robin_egg_blue: #03d5b4;
+$rhino: #2c3659;
+$persimmon: #fc6c4d;
+$white_smoke: #f0f0f0;
 
-// Make red the primary color
-$primary: $red;
+// Set colors
+$primary: 		$robin_egg_blue;
+$secondary: 	$rhino;
+$info:			$persimmon;
+$inverse:       $white_smoke;
 
 // Theme fonts
 $font-family-sans-serif: cursive;
