@@ -3,102 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<style>
-			.body {
-	font-family: "Open Sans",sans-serif;
-}
-
-.container.first-container.homepage {
-	height: 90px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-left: 12px !important;
-	padding-bottom: 0px !important;
-	padding-left: 20px !important;
-}
-
-.navbar.homepage {
-	height: 60px;
-	padding-bottom: 0px !important;
-	padding-top: 0px !important;
-	padding-left: 0px !important;
-	margin-left: -4px;
-}
-.container-fluid.homepage {
-	background-color: #FC6C4D;
-	height: 60px;
-}
-.window-wrap.homepage {
-	background: #ffffff;
-}
-.container.homepage {
-	padding-top: 0px;
-}
-
-.navbar-light .nav-link.homepage{
-	color: white !important;
-	display: table-cell;
-	height: 60px;
-	vertical-align: middle;
-}
-
-.navbar-light .nav-link.homepage:hover {
-	background-color: #C7553D !important;
-	display: table-cell;
-	height: 60px;
-	vertical-align: middle;
-}
-
-.nav-link.homepage{
-	padding-left: 20px !important;
-	padding-right: 20px !important;
-	font-size: 15px;
-	font-weight: 400;
-	padding-bottom: 0px !important;
-	padding-top: 0px !important;
-	text-decoration: none !important;
-}
-			
-
-.active.homepage{
-	background-color: #C7553D !important;
-	display: table-cell;
-	height: 60px;
-	vertical-align: middle;
-}
-
-
-
-
-
+			.homepage_nav_bar {
+				background-color: #FC6C4D;
+				height: 60px;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="container first-container homepage">
-		  <div class="row">
-		    <div class="col-sm">
-		     	<a href="https://letstudy.gr/" title="LETSTUDY" rel="home"> 
-					<img class="header-image" alt="LETSTUDY" src="https://letstudy.gr/wp-content/uploads/2019/03/cropped-Letstudy_Logo_Light_Horizontal@1x-e1552289987301.png" title="LETSTUDY"> 
-				</a>
-		    </div>
-		  </div>
+		<div class="homepage_logo">
+			<a href="https://letstudy.gr/" title="LETSTUDY" rel="home"> 
+				<img class="header-image" alt="LETSTUDY" src="https://letstudy.gr/wp-content/uploads/2019/03/cropped-Letstudy_Logo_Light_Horizontal@1x-e1552289987301.png" title="LETSTUDY"> 
+			</a>
 		</div>
-		<div class="container-fluid homepage">
-			<div class="container homepage">
-				<nav class="navbar navbar-expand-lg navbar-light homepage">
-				  <ul class="navbar-nav homepage">
-				      <li class="nav-item homepage">
-				        <a class="nav-link homepage" href="https://letstudy.gr/">ΑΡΧΙΚΗ <span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item homepage">
-				        <a class="nav-link homepage" href="#">BLOG</a>
-				      </li>
-				      <li class="nav-item homepage">
-				        <a class="nav-link homepage" href="https://letstudy.gr/all-courses/">ΜΑΘΗΜΑΤΑ</a>
-				      </li>
-				    </ul>
-				</nav>
-			</div>
+		<div class="homepage_nav_bar">
+			  <ul class="homepage_ul">
+			      <li class="homepage_nav_item">
+				<a class="homepage_nav_link" href="https://letstudy.gr/">ΑΡΧΙΚΗ <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="homepage_nav_item">
+				<a class="homepage_nav_link" href="#">BLOG</a>
+			      </li>
+			      <li class="homepage_nav_item">
+				<a class="homepage_nav_link" href="https://letstudy.gr/all-courses/">ΜΑΘΗΜΑΤΑ</a>
+			      </li>
+			    </ul>
 		</div>
 	</body>
 </html>
