@@ -15,14 +15,6 @@
     color: white !important;
 }
 
-nav-colophon-03 a {
-    color: white !important;
-}
-	
-nav-colophon-03 a:hover {
-    cursor: default !important;
-}
-
 .nav-colophon-01 a:hover {
     color: #FC6C4D !important;
 }
@@ -31,6 +23,9 @@ nav-colophon-03 a:hover {
     color: #FC6C4D !important;
 }
 
+.wrapper-footer footer#footer-openedx .colophon {
+    width: 100%
+}
 </style>
 ## mako
 <%page expression_filter="h"/>
@@ -110,15 +105,10 @@ nav-colophon-03 a:hover {
                 ## <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
               ## </li>
               ## % endfor
-		  	  <li class="nav-colophon-03">
-				  <a href="#">%copy% Letstudy %current_year% | </a>
-			  </li>
 			  <li class="nav-colophon-01">
 				  <a id="about" href="https://letstudy.gr/terms-of-use/">Όροι Χρήσης</a>
 			  </li>
-			  <li class="nav-colophon-03">
-				  <a href="#"> | </a>
-			  </li>
+		          <span style="color: white;"> | </span>
 			  <li class="nav-colophon-02">
 				  <a id="blog" href="https://letstudy.gr/privacy-policy/">Πολιτική Απορρήτου</a>
 			  </li>
