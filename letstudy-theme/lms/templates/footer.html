@@ -22,6 +22,14 @@
 .nav-colophon-02 a:hover {
     color: #FC6C4D !important;
 }
+	
+.nav-colophon-03 a {
+    color: white !important;
+}
+
+.nav-colophon-03 a:hover {
+    cursor: default !important;
+}
 
 .wrapper-footer footer#footer-openedx .colophon {
     width: 100%
@@ -39,6 +47,11 @@
 	
 .footer-about-openedx {
     width: 100% !important;
+}
+	
+.nav-colophon {	
+    width: 100% !important;
+    display: inline-block;
 }
 </style>
 ## mako
@@ -121,9 +134,10 @@
               ## % endfor
 			  <li class="nav-colophon-01">
 				  <a id="about" href="https://letstudy.gr/terms-of-use/">Όροι Χρήσης</a>
-				  <span style="color: white;"> | </span>
 			  </li>
-		          
+		          <li class="nav-colophon-03">
+				  <a href="#"> | </a>
+			  </li>
 			  <li class="nav-colophon-02">
 				  <a id="blog" href="https://letstudy.gr/privacy-policy/">Πολιτική Απορρήτου</a>
 			  </li>
