@@ -26,6 +26,20 @@
 .wrapper-footer footer#footer-openedx .colophon {
     width: 100%
 }
+	
+.colophon .nav-colophon ol {
+    display: inline-block;
+    list-style: inside;
+    text-align: center;
+}
+	
+.copyright {
+    text-align: center !important;	
+}
+	
+.footer-about-openedx {
+    width: 100% !important;
+}
 </style>
 ## mako
 <%page expression_filter="h"/>
@@ -107,8 +121,9 @@
               ## % endfor
 			  <li class="nav-colophon-01">
 				  <a id="about" href="https://letstudy.gr/terms-of-use/">Όροι Χρήσης</a>
+				  <span style="color: white;"> | </span>
 			  </li>
-		          <span style="color: white;"> | </span>
+		          
 			  <li class="nav-colophon-02">
 				  <a id="blog" href="https://letstudy.gr/privacy-policy/">Πολιτική Απορρήτου</a>
 			  </li>
