@@ -15,6 +15,14 @@
     color: white !important;
 }
 
+nav-colophon-03 a {
+    color: white !important;
+}
+	
+nav-colophon-03 a:hover {
+    cursor: default !important;
+}
+
 .nav-colophon-01 a:hover {
     color: #FC6C4D !important;
 }
@@ -102,14 +110,19 @@
                 ## <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
               ## </li>
               ## % endfor
-		  <p class="copyright"> Letstudy | 
+		  	  <li class="nav-colophon-03">
+				  <a href="#">%copy% Letstudy %current_year% | </a>
+			  </li>
 			  <li class="nav-colophon-01">
-				  <a id="about" href="https://letstudy.gr/terms-of-use/">Όροι Χρήσης | </a>
+				  <a id="about" href="https://letstudy.gr/terms-of-use/">Όροι Χρήσης</a>
+			  </li>
+			  <li class="nav-colophon-03">
+				  <a href="#"> | </a>
 			  </li>
 			  <li class="nav-colophon-02">
 				  <a id="blog" href="https://letstudy.gr/privacy-policy/">Πολιτική Απορρήτου</a>
 			  </li>
-		  </p>
+	
           </ol>
         </nav>
 
